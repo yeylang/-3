@@ -732,15 +732,15 @@ function checkAward() {
       
     // 检查用户是否获得奖项A  
     if (awardWinnersA.includes(wechatName)) {  
-        resultElement.textContent = '恭喜您，8折优惠奖励，请联系静黛轩优惠购买！';  
+        resultElement.textContent = '恭喜您，获得了八折优惠奖励，请截图，购买后发送给客服领取优惠！';  
     }   
     // 检查用户是否获得奖项B  
     else if (awardWinnersB.includes(wechatName)) {  
-        resultElement.textContent = '恭喜您，获得了九折优惠奖励，请联系静黛轩优惠购买！';  
+        resultElement.textContent = '恭喜您，获得了九折优惠奖励，请截图，购买后发送给客服领取优惠！';  
     }   
     else if (wechatName === '') {  
         resultElement.textContent = '请输入微信名称！';  
     } else {  
-        resultElement.textContent = '很抱歉，暂为查到您的信息，请联系静黛轩人工查询。';  
+        resultElement.textContent = '很抱歉，暂未查到您的信息，请联系静黛轩尊享之家进行人工查询。';  
     }  
 }
